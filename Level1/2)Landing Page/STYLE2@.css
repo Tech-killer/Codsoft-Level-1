@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links .buy-now {
+    background-color: #ff9f43;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.nav-links .buy-now:hover {
+    background-color: #ff6b6b;
+}
+.banner {
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/20241003124852/bgimage.png') no-repeat center center/cover;
+    height: 500px;
+    color: white;
+    display: flex;
+    align-items:flex-end;
+    justify-content :center;
+    text-align:justify;
+    padding: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.banner-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+    display: inline-block;
+    background-color: #0d3250;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align:center;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #ff9f43;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item h3 {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.service-item i {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ff6b6b;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.about-image img {
+    width: 300px;
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-stretch: expanded;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #3e4c541e
+}
+
+.cards img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    background-color: #ff6b6b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+#about {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#skills, #projects, #resume, #contact {
+    padding: 50px 0;
+}
+
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#skills li {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.project-item {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 45%;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#resume a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1.2rem;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
